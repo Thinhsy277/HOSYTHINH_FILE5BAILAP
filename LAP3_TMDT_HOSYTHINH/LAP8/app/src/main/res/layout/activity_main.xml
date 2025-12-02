@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:gravity="center_horizontal">
+
+        <!-- TITLE -->
+        <TextView
+            android:text="Custom Button"
+            android:textColor="#C62828"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp" />
+
+        <!-- 2 CỘT -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="16dp">
+
+            <!-- LEFT COLUMN -->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:gravity="center_horizontal">
+
+                <TextView
+                    android:text="Selectors"
+                    android:textSize="16sp"
+                    android:textStyle="italic"
+                    android:layout_marginBottom="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <!-- COLORED SELECTOR -->
+                <Button
+                    android:id="@+id/btnColored"
+                    android:layout_width="160dp"
+                    android:layout_height="45dp"
+                    android:layout_marginBottom="10dp"
+                    android:text="COLORED SELECTOR"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    android:background="@drawable/selector_colored" />
+
+                <!-- DISABLED -->
+                <Button
+                    android:id="@+id/btnDisabled"
+                    android:layout_width="160dp"
+                    android:layout_height="45dp"
+                    android:text="COLOR SELECTOR DISABLED"
+                    android:textSize="14sp"
+                    android:enabled="false"
+                    android:background="@drawable/btn_disabled" />
+
+                <!-- EMOJI 1 -->
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_marginTop="16dp"
+                    android:src="@drawable/emoji1" />
+            </LinearLayout>
+
+            <!-- RIGHT COLUMN -->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:gravity="center_horizontal">
+
+                <TextView
+                    android:text="Shapes+Selectors"
+                    android:textSize="16sp"
+                    android:textStyle="italic"
+                    android:layout_marginBottom="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <!-- ROUND SHAPE -->
+                <Button
+                    android:id="@+id/btnRound"
+                    android:layout_width="160dp"
+                    android:layout_height="45dp"
+                    android:layout_marginBottom="10dp"
+                    android:text="ROUND SHAPE"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    android:background="@drawable/btn_round" />
+
+                <!-- GRADIENT -->
+                <Button
+                    android:id="@+id/btnGradient"
+                    android:layout_width="160dp"
+                    android:layout_height="45dp"
+                    android:layout_marginBottom="10dp"
+                    android:text="SHAPE WITH GRADIENT"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    android:background="@drawable/btn_gradient" />
+
+                <!-- SHAPE SELECTOR -->
+                <Button
+                    android:id="@+id/btnShapeSelector"
+                    android:layout_width="160dp"
+                    android:layout_height="45dp"
+                    android:layout_marginBottom="10dp"
+                    android:text="SELECTOR SHAPE"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    android:background="@drawable/selector_shape" />
+
+                <!-- EMOJI 2 -->
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_marginTop="16dp"
+                    android:src="@drawable/emoji2" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <!-- FOOTER -->
+        <TextView
+            android:text="Made by Thai Duy Quy"
+            android:textColor="#1E88E5"
+            android:textSize="14sp"
+            android:layout_marginTop="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</ScrollView>

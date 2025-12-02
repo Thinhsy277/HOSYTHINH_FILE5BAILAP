@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Máy tính</string>
+    <string name="result">Kết quả</string>
+    <string name="plus">+</string>
+    <string name="minus">-</string>
+    <string name="multiply">*</string>
+    <string name="divide">/</string>
+    <string name="modulo">%</string>
+    <string name="calculator">Máy tính</string>
+    <string name="camera">Camera</string>
+    <string name="random_number">Random Number</string>
+    <string name="dice_roller">Dice Roller</string>
+    <string name="call_sms">Call/SMS</string>
+    <string name="take_photo">Chụp ảnh</string>
+    <string name="generate">Generate</string>
+    <string name="roll_dice">Tap to roll the dice</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="call">Call</string>
+    <string name="send_sms">Send SMS</string>
+    <string name="random_number_title">Random Number</string>
+</resources>

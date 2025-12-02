@@ -1,0 +1,23 @@
+CREATE DATABASE IF NOT EXISTS truyencuoi CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+USE truyencuoi;
+
+DROP TABLE IF EXISTS stories;
+DROP TABLE IF EXISTS topics;
+
+CREATE TABLE topics (
+    id VARCHAR(32) PRIMARY KEY,
+    title VARCHAR(128) NOT NULL,
+    emoji VARCHAR(16) NOT NULL,
+    description VARCHAR(255) NOT NULL,
+    sort_order INT NOT NULL DEFAULT 0
+);
+
+CREATE TABLE stories (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    topic_id VARCHAR(32) NOT NULL,
+    title VARCHAR(200) NOT NULL,
+    content TEXT NOT NULL,
+    position INT NOT NULL DEFAULT 0,
+    FOREIGN KEY (topic_id) REFERENCES topics(id) ON DELETE CASCADE
+);
+

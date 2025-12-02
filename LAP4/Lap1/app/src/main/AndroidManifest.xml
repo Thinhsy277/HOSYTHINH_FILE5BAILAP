@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.lab1">
+
+    <!-- Permissions -->
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+    <uses-permission android:name="android.permission.SEND_SMS"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.FirstProgram">
+        
+        <!-- Main Activity -->
+        <activity android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Calculator Activity -->
+        <activity android:name=".CalculatorActivity"
+            android:exported="false"/>
+
+        <!-- Camera Activity -->
+        <activity android:name=".CameraActivity"
+            android:exported="false"/>
+
+        <!-- Random Number Activity -->
+        <activity android:name=".RandomNumberActivity"
+            android:exported="false"/>
+
+        <!-- Dice Roller Activity -->
+        <activity android:name=".DiceRollerActivity"
+            android:exported="false"/>
+
+        <!-- Call SMS Activity -->
+        <activity android:name=".CallSmsActivity"
+            android:exported="false"/>
+
+    </application>
+
+</manifest>

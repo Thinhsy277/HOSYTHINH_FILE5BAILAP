@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="#00838F"
+        android:gravity="center_vertical"
+        android:paddingStart="16dp"
+        android:text="Đổi đơn vị đo chiều dài"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="8dp">
+
+        <EditText
+            android:id="@+id/txtInput"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:hint="1.23"
+            android:inputType="numberDecimal"
+            android:padding="10dp" />
+
+        <Spinner
+            android:id="@+id/spUnit"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:paddingStart="12dp"
+        android:gravity="center_vertical"
+        android:text="Tương đương với"
+        android:textColor="#FFFFFF"
+        android:background="#00838F"
+        android:textSize="16sp" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:stretchColumns="0,1">
+
+        <TableRow>
+            <TextView android:id="@+id/lblHL" android:padding="4dp"/>
+            <TextView android:text="Hải lý" android:padding="4dp"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView android:id="@+id/lblDam" android:padding="4dp"/>
+            <TextView android:text="Dặm" android:padding="4dp"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView android:id="@+id/lblKm" android:padding="4dp"/>
+            <TextView android:text="Kilometer" android:padding="4dp"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView android:id="@+id/lblLy" android:padding="4dp"/>
+            <TextView android:text="Lý" android:padding="4dp"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView android:id="@+id/lblMet" android:padding="4dp"/>
+            <TextView android:text="Met" android:padding="4dp"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView android:id="@+id/lblYard" android:padding="4dp"/>
+            <TextView android:text="Yard" android:padding="4dp"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView android:id="@+id/lblFoot" android:padding="4dp"/>
+            <TextView android:text="Foot" android:padding="4dp"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView android:id="@+id/lblInch" android:padding="4dp"/>
+            <TextView android:text="Inches" android:padding="4dp"/>
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>

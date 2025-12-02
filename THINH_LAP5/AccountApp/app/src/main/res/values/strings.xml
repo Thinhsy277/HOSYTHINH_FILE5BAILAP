@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Account</string>
+    <string name="txt_login">Login</string>
+    <string name="txt_register">Register</string>
+    <string name="txt_no_account">Don&#39;t have an account ?</string>
+    <string name="txt_have_account">Already have an account ?</string>
+    <string name="txt_forgot_pass">Forgot password?</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_re_password">Confirm password</string>
+    <string name="action_login">Login</string>
+    <string name="action_register">Register</string>
+    <string name="placeholder_email">you@example.com</string>
+    <string name="error_empty_fields">Vui lòng nhập đầy đủ Email và Password</string>
+    <string name="error_password_not_match">Password không khớp</string>
+    <string name="msg_register_success">Đăng ký thành công</string>
+    <string name="msg_login_success">Đăng nhập thành công</string>
+    <string name="msg_login_failed">Đăng nhập thất bại</string>
+    <string name="msg_register_failed">Đăng ký thất bại</string>
+</resources>
+

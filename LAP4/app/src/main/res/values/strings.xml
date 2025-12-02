@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">TruyenCuoi</string>
+    <string name="txt_congai">Con gái</string>
+    <string name="txt_story">Vừa đúng vừa sai</string>
+    <string name="txt_topics_title">Truyện cười 😄</string>
+    <string name="txt_topics_subtitle">Chọn chủ đề để bắt đầu</string>
+    <string name="txt_loading">Đang tải dữ liệu...</string>
+    <string name="txt_error_loading">Không tải được dữ liệu. Thử lại sau.</string>
+    <string name="txt_story_list_hint">Chạm vào 1 truyện để đọc</string>
+    <string name="txt_back">Quay lại</string>
+    <string name="txt_story_next">Vuốt sang trái/phải để đổi truyện</string>
+</resources>
+

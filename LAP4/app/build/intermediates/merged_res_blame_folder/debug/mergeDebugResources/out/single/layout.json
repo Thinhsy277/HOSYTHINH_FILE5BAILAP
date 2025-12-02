@@ -1,0 +1,46 @@
+[
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\9.0-milestone-1\\com.techja.truyencuoi.app-mergeDebugResources-3:\\layout\\m001_item_topic.xml",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\9.0-milestone-1\\com.techja.truyencuoi.app-main-6:\\layout\\m001_item_topic.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\9.0-milestone-1\\com.techja.truyencuoi.app-mergeDebugResources-3:\\layout\\m001_frg_topics.xml",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\9.0-milestone-1\\com.techja.truyencuoi.app-main-6:\\layout\\m001_frg_topics.xml"
+    },
+    {
+        "merged": "com.techja.truyencuoi.app-mergeDebugResources-3:/layout/m002_frg_story_list.xml",
+        "source": "com.techja.truyencuoi.app-main-6:/layout/m002_frg_story_list.xml"
+    },
+    {
+        "merged": "com.techja.truyencuoi.app-mergeDebugResources-3:/layout/m003_frg_story_pager.xml",
+        "source": "com.techja.truyencuoi.app-main-6:/layout/m003_frg_story_pager.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\9.0-milestone-1\\com.techja.truyencuoi.app-mergeDebugResources-3:\\layout\\m002_frg_story_list.xml",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\9.0-milestone-1\\com.techja.truyencuoi.app-main-6:\\layout\\m002_frg_story_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\9.0-milestone-1\\com.techja.truyencuoi.app-mergeDebugResources-3:\\layout\\m000_frg_splash.xml",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\9.0-milestone-1\\com.techja.truyencuoi.app-main-6:\\layout\\m000_frg_splash.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\9.0-milestone-1\\com.techja.truyencuoi.app-mergeDebugResources-3:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\9.0-milestone-1\\com.techja.truyencuoi.app-main-6:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\9.0-milestone-1\\com.techja.truyencuoi.app-mergeDebugResources-3:\\layout\\m003_frg_story_pager.xml",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\9.0-milestone-1\\com.techja.truyencuoi.app-main-6:\\layout\\m003_frg_story_pager.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\9.0-milestone-1\\com.techja.truyencuoi.app-mergeDebugResources-3:\\layout\\m003_item_page.xml",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\9.0-milestone-1\\com.techja.truyencuoi.app-main-6:\\layout\\m003_item_page.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\9.0-milestone-1\\com.techja.truyencuoi.app-mergeDebugResources-3:\\layout\\m002_item_story.xml",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\9.0-milestone-1\\com.techja.truyencuoi.app-main-6:\\layout\\m002_item_story.xml"
+    },
+    {
+        "merged": "com.techja.truyencuoi.app-mergeDebugResources-3:/layout/m001_frg_topics.xml",
+        "source": "com.techja.truyencuoi.app-main-6:/layout/m001_frg_topics.xml"
+    }
+]
